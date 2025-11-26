@@ -2,9 +2,7 @@ let video = document.getElementById("video");
 let onoff = document.getElementById("onoff");
 let span = document.getElementById("fullyear");
 let year = new Date().getFullYear();
-span.innerHTML =  year;
-
-
+span.innerHTML = year;
 
 onoff.onclick = function (e) {
   e.preventDefault();

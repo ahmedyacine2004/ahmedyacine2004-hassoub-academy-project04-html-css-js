@@ -30,6 +30,7 @@ header .overlay .brand {
 .header-txt {
   padding-top: 190px;
 }
+
 .header-txt h1 {
   font-size: 36px;
   margin-bottom: 40px;
@@ -68,16 +69,22 @@ header .overlay .brand {
   position: relative;
   margin-bottom: 30px;
 }
+
+.product img {
+  width: 100%;
+}
+
 .product-label img {
   position: absolute;
+  width: 40%;
   top: -50px;
   right: -50px;
 }
 
 .product-label h3 {
   position: absolute;
-  top: -20px;
-  right: 0;
+  top: 0px;
+  right: 20px;
   text-align: center;
   color: white;
   z-index: 2;
@@ -393,6 +400,69 @@ footer {
   color: #768594;
 }
 
-.copyright{
-  color:#768594;
+.copyright {
+  color: #768594;
+}
+
+@media screen and (max-width: 992px) {
+  header .header-txt {
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .overlay .product {
+    margin-top: 100px;
+  }
+
+  .product .product-label img {
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .product .product-label p {
+    top: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .features .media-features .d-flex {
+    flex-flow: column;
+  }
+
+  .features .features-title h2::after {
+    bottom: 0;
+    right: 0;
+    transform: translateX(-120%);
+  }
+
+  .features .media-features .d-flex img {
+    margin-bottom: 36px;
+  }
+
+  .features .media-features .d-flex:nth-child(even) {
+    direction: rtl;
+  }
+
+  .features .media-features .d-flex:nth-child(even) h4::before {
+    content: "";
+    width: 3px;
+    height: 50px;
+    background-color: #7936b2;
+    display: block;
+    margin-bottom: 15px;
+    position: absolute;
+    right: 0px;
+  }
+
+  .features .media-features .d-flex:nth-child(even) h4 {
+    padding-left: 0px;
+    padding-right: 30px;
+  }
+
+  .faq .col-lg-4 .accordion {
+    margin-bottom: 24px;
+    box-shadow: 0px 0px 15px 0px #1d1d1d;
+    border-radius: 5px;
+  }
 }
