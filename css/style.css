@@ -48,7 +48,7 @@ header .overlay .brand {
   background-color: #7936b2;
   color: white;
   border-radius: 0;
-  margin-left: 15px;
+  margeven: 15px;
 }
 .header-btn .btn:first-child:hover {
   background-color: #311152;
@@ -81,4 +81,82 @@ header .overlay .brand {
   text-align: center;
   color: white;
   z-index: 2;
+}
+
+.features {
+  padding: 70px 0px;
+  background-color: white;
+}
+.features .features-title h2 {
+  font-size: 36px;
+  color: #555;
+  line-height: 32px;
+  padding-bottom: 45px;
+  position: relative;
+}
+
+.features .features-title h2::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 2px;
+  background-color: #7936b2;
+  margin-top: 15px;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+.features .media-features .d-flex {
+  padding: 70px 0px;
+  border-bottom: 1px solid #555;
+}
+
+.features .media-features .d-flex:nth-child(even) {
+  direction: ltr;
+}
+
+.features .media-features .d-flex img {
+  margin: 0px 80px;
+}
+
+.features .media-features .d-flex h4 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #7936b2;
+  padding-right: 30px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.features .media-features .d-flex:nth-child(even) h4 {
+  padding-left: 30px;
+  padding-right: 0px;
+}
+
+.features .media-features .d-flex:nth-child(odd) h4::before {
+  content: "";
+  width: 3px;
+  height: 50px;
+  background-color: #7936b2;
+  display: block;
+  margin-bottom: 15px;
+  position: absolute;
+  right: 0px;
+}
+
+.features .media-features .d-flex:nth-child(even) h4::before {
+  content: "";
+  width: 3px;
+  height: 50px;
+  background-color: #7936b2;
+  display: block;
+  margin-bottom: 15px;
+  position: absolute;
+  left: 0px;
+}
+
+.features .media-features .d-flex p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #555555;
 }
