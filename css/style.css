@@ -48,7 +48,7 @@ header .overlay .brand {
   background-color: #7936b2;
   color: white;
   border-radius: 0;
-  margeven: 15px;
+  margin-left: 15px;
 }
 .header-btn .btn:first-child:hover {
   background-color: #311152;
@@ -159,4 +159,240 @@ header .overlay .brand {
   font-size: 18px;
   line-height: 32px;
   color: #555555;
+}
+
+#prices {
+  padding: 50px 0px 60px;
+  background-color: #f7f7f7;
+}
+
+.prices-text h2 {
+  font-size: 30px;
+  color: #5d5d5d;
+}
+
+section#prices .price-card {
+  background-color: white;
+  border: 2px solid #ddd;
+  padding: 15px 0px;
+  margin-top: 100px;
+  color: #a9a9ab;
+}
+
+section#prices .price-card h3 {
+  font-size: 18px;
+  color: #7936b2;
+  margin-bottom: 20px;
+}
+
+section#prices .price-card .price {
+  font-size: 48px;
+  margin-bottom: 30px auto;
+}
+
+section#prices .price-card .price span {
+  font-size: 15px;
+  vertical-align: bottom;
+}
+section#prices .price-card ul {
+  padding-right: 0rem !important;
+}
+
+section#prices .price-card ul li {
+  list-style: none;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+section#prices .price-card .btn {
+  border: 1px solid #7936b2;
+  color: #7936b2;
+  padding: 12px 40px;
+  border-radius: 0;
+}
+
+section#prices .price-card .btn:hover {
+  background-color: #7936b2;
+  color: white;
+  border: none;
+}
+
+section#prices .box:nth-child(3) .price-card .btn {
+  background-color: #7936b2;
+  color: white;
+  border: none;
+}
+
+section#prices .box:nth-child(3) .price-card .btn:hover {
+  background-color: transparent;
+  color: #7936b2;
+  border: 1px solid #7936b2;
+}
+
+section#prices .box:nth-child(3) .price-card {
+  margin-top: 50px;
+  padding: 60px 0px;
+}
+section#prices .price-card .btn i {
+  margin-right: 8px;
+}
+
+.faq {
+  background-color: white;
+  padding: 45px 0px 60px;
+}
+
+.faq .faq-title h2 {
+  font-size: 36px;
+  color: #555;
+  line-height: 32px;
+  padding: 45px 0px;
+  position: relative;
+}
+
+section.video {
+  min-height: 100vh;
+  position: relative;
+}
+
+section.video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section.video .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #7836b294;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.video .overlay .btn {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff63;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+section.video .overlay .btn i {
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section.contact {
+  padding: 60px 0px 40px;
+  background-color: #131313;
+}
+
+section.contact h2 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+section.contact form input,
+section.contact form textarea,
+section.contact form input:focus,
+section.contact form textarea:focus,
+section.contact form input::placeholder,
+section.contact form textarea::placeholder {
+  display: block;
+  margin-bottom: 10px;
+  background-color: #242424;
+  font-size: 18px;
+  line-height: 35px;
+  color: #ffffff;
+  border-radius: 0px;
+  border: none;
+  box-shadow: none !important;
+}
+section.contact form input,
+section.contact form textarea {
+  width: 90%;
+}
+
+section.contact form .btn {
+  align-self: flex-start;
+  padding: 12px 40px;
+  background-color: #7936b2;
+  color: white;
+  border-radius: 0%;
+}
+
+section.contact form .btn i {
+  margin-right: 16px;
+}
+
+input[type="email"] {
+  text-align: right;
+}
+
+footer {
+  padding: 50px 0px;
+  background-color: #1d1d1d;
+}
+
+.blogs img {
+  width: 100%;
+}
+
+.blogs {
+  margin-bottom: 24px;
+  color: white;
+}
+
+.blogs h5 {
+  font-size: 18px;
+  color: #e7e7e7;
+  margin-bottom: 15px;
+}
+.blogs p {
+  font-size: 15px;
+  color: #e7e7e7;
+  line-height: 20px;
+}
+
+.social-media li {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #768594;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.social-media li:hover {
+  background-color: transparent;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.social-media li i {
+  color: #1d1d1d;
+  transition: color 0.1s ease-in-out;
+}
+
+.social-media li:hover i {
+  color: #768594;
+}
+
+.copyright{
+  color:#768594;
 }
