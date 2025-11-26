@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Cairo";
+  src: url("../fonts/Cairo-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+header video {
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+header .overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+header .overlay .brand {
+  padding-top: 40px;
+}
+
+.header-txt {
+  padding-top: 190px;
+}
+.header-txt h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  line-height: 46px;
+  color: #555555;
+}
+
+.header-txt p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #5d5d5d;
+  margin-bottom: 50px;
+}
+.header-btn .btn {
+  padding: 22px 55px;
+  background-color: #7936b2;
+  color: white;
+  border-radius: 0;
+  margin-left: 15px;
+}
+.header-btn .btn:first-child:hover {
+  background-color: #311152;
+}
+
+.header-btn .btn:nth-child(2) {
+  background-color: transparent;
+  color: #7936b2;
+}
+
+.header-btn .btn:nth-child(2):hover {
+  background-color: transparent;
+  background-color: #7836b295;
+  color: white;
+}
+.product {
+  position: relative;
+  margin-bottom: 30px;
+}
+.product-label img {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.product-label h3 {
+  position: absolute;
+  top: -20px;
+  right: 0;
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
